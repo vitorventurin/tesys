@@ -1,0 +1,313 @@
+canvas.estilo-do-canvas {
+	border:1px solid #ccc;
+	position:relative;
+	left:0px;
+}
+
+/*
+-----------------
+Defini��es Gerais
+-----------------
+*/
+/* 003366*/
+html, body								{ width:100%; height:100%; margin:0; padding:0; background:#8e908f; font-family:Arial, Verdana; font-size:1em; text-align:center; color:#333; }
+
+ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, label, span, em, a, div  { border:0; margin:0; padding:0; }
+
+div										{ margin:0; padding:0;}
+
+/* h1, h2, h3, h4 							{ display:none; } */
+
+ul										{ list-style:none; }
+
+img										{ border:0px; }
+
+.clearboth								{ clear:both; }
+
+.br										{ margin-top:0.5em; margin-bottom:0.5em; }
+
+.icon									{ float:left; padding-left:1px; border:0px;}
+
+.right									{ float : right; padding-right : 20px; }
+
+.liLink									{ display:block; font-size:10px;  text-decoration:none; color:#333; }
+
+/*
+----------------------------------
+Defini��es Espec�ficas - Estrutura
+------------------------------
+*/
+
+#corpo								{ width:100%; min-height:100%; margin:0; text-align:left; }
+
+#corpo .topo							{ width:100%; height:85px; background:#8e908f; }
+
+#corpo .entrar						{ width:100%; min-width:750px; height:100%; padding:3.5em 0 1.5em 0; background:#fff /*url(/fj21-controle-produtos/images/bg_conteudo.png)*/ repeat-x 0px 0px; }
+
+#corpo .conteudo						{ width:100%; min-width:750px; height:100%; background:#fff /*url(/fj21-controle-produtos/images/bg_faux.png)*/ repeat-y 0px 0px; }
+
+#corpo .conteudo #menu				{ width:200px; float:left; padding-top:2em; background:#f2f2f2 /*url(/fj21-controle-produtos/images/bg_menu.png)*/ repeat-x 0px 0px; }
+
+#corpo .conteudo #principal			{ margin-left:200px; background:#fff /*url(/fj21-controle-produtos/images/bg_conteudo.png)*/ repeat-x 0px 0px; }
+
+#corpo .conteudo #principal .margem	{ margin:0 1.5em; padding-top:2em; }
+
+#corpo .rodape						{ width:100%; /* height:30px; */ background:#8E908F; } /*8E908F*/
+
+
+/*
+-----------------------------
+Defini��es Espec�ficas - Topo
+-----------------------------
+*/
+
+#corpo .topo .logo					{ padding-top:20px; padding-left:1em;  }
+
+#corpo .topo .logo .ecommerce			{ width:178px; height:48px; display:block; background:/*url(/fj21-controle-produtos/images/logo.jpg)*/ no-repeat 0px 0px; }
+
+#corpo .topo .usuario				{ float:right; position:relative; top:-1em; right:2em; }
+
+#corpo .topo .usuario h4				{ display:block; padding-left:1.75em; background:/*url(/fj21-controle-produtos/images/ico_usuario.png)*/ no-repeat 0px center; font-size:0.6em; font-weight:normal; color:#fff; white-space:nowrap; }
+
+#corpo .topo .usuario h4 span			{ margin:0em 0.25em; }
+
+#corpo .topo .usuario h4 a			{ margin:0em 0.5em; text-decoration:none; color:#fff; }
+
+#corpo .topo .usuario h4 a:hover		{ text-decoration:underline; }
+
+
+
+/*
+-------------------------------
+Defini��es Espec�ficas - Entrar
+-------------------------------
+*/
+
+#corpo .entrar .area					{ width:28.4em; height:17.75em; margin:0 auto; background:/*url(/fj21-controle-produtos/images/bg_login.png)*/ no-repeat 0px 0px; font-size:0.75em; color:#333; } 
+
+#corpo .entrar div .margem				{ padding:1.75em 2em; }
+
+#corpo .entrar div h3					{ display:block; margin-bottom:0.75em; padding-bottom:0.25em; border-bottom:1px solid #e6e6e6; font-size:1.25em; text-transform:uppercase; } 
+
+#corpo .entrar div p					{ font-size:0.9em; color:#555; line-height:1.4em; }
+
+#corpo .entrar div form				{ padding-top:1.25em; font-size:1.1em; color:#333; }
+
+#corpo .entrar div form p				{ line-height:2em; clear:both; }
+
+#corpo .entrar div form	label		{ width:3.5em; float:left; text-align:left; }
+
+#corpo .entrar div form input			{ width:22em; height:1.5em; float:right; margin:0; margin-top:0.25em; padding:0.1em; border:1px solid #e6e6e6; font-size:0.9em; line-height:1.5em; }
+
+#corpo .entrar div form input:focus	{ border:1px solid #ccc; background:#fdf9e9; }
+
+#corpo .entrar div form input:hover	{ background:#fff8da; }
+
+#corpo .entrar div form button		{ width:4em; float:right; margin:0; margin-top:0.5em; border:1px solid #a8b9bc; background:#f1f1f1; font-size:0.9em; text-align:center; color:#333; }
+
+#corpo .entrar div form .erro			{ font-size:0.8em; color:#cc0000; }
+
+
+
+/*
+-----------------------------
+Defini��es Espec�ficas - Menu
+-----------------------------
+*/
+
+#menu ul								{ margin:0 1.5em; font-size:0.75em; }
+
+#menu ul li								{ display:block; margin-bottom:2.5em; background:/*url(/fj21-controle-produtos/images/ico_folder.png)*/ no-repeat 0.6em 2px; font-size:1em; font-weight:bold; text-transform:uppercase; }
+
+html* #menu ul li						{ background:/*url(/fj21-controle-produtos/images/ico_folder.png)*/ no-repeat 0.6em 4px; }
+
+#menu ul li h3							{ display:block; margin-left:0.25em; padding-left:1.5em; padding-bottom:0.25em; border-bottom:1px dotted #bebebe; font-size:1.2em; }
+
+#menu ul li ul							{ margin:0; padding-left:0.5em; font-size:0.8em; }
+
+#menu ul li ul li						{ margin:0; border-bottom:1px dotted #bebebe; background:/*url(/fj21-controle-produtos/images/ico_item.png)*/ no-repeat 1.5em center; font-size:1.3em; font-weight:normal; text-transform:none; }
+
+#menu ul li ul li:hover					{ background:#fff8da /*url(/fj21-controle-produtos/images/ico_item.png)*/ no-repeat 1.5em center; }
+
+#menu ul li ul li a						{ display:block; padding:0.5em 0 0.5em 2.5em; text-decoration:none; color:#333; }
+
+#menu ul li ul li a:hover				{ text-decoration:underline; }
+
+
+
+/*
+-------------------------------
+Defini��es Espec�ficas - Bot�es
+-------------------------------
+*/
+
+#principal .btn							{ width:99%; height:2.75em; margin-bottom:1.5em; border:1px solid #f5f2f2; background:#fafafa; }
+
+#principal .btn ul						{ margin:0.75em 1em; font-size:0.75em; }
+
+#principal .btn ul li					{ float:left; margin-right:0.25em; font-size:1em; }
+
+#principal .btn ul li a					{ margin:0; padding:0.2em 0.4em; border:1px solid #ebebeb; background:#f2f2f2; text-decoration:none; color:#333; line-height:2em; }
+
+#principal .btn ul li a:hover			{ background:#fff8da; }
+
+
+/*
+----------------------------------
+Defini��es Especificas - Principal
+----------------------------------
+*/
+
+#principal h4							{ width:99%; display:block; margin-top:-0.25em; margin-bottom:1em; padding-bottom:0.25em; border-bottom:1px solid #e6e6e6; font-size:1em; font-weight:bold; color:#888; }
+
+#principal h4 span						{ color:#333; }
+
+
+
+/*
+-----------------------------------------
+Defini��es Especificas - Principal: Table
+-----------------------------------------
+*/
+
+/* #principal table						{ width:99%; margin-bottom:1.5em; border-collapse:collapse; font-family:"Trebuchet MS", Verdana, Arial; font-size:0.8em; text-align:left; }*/
+#principal table 						{ width:99%; margin-bottom:1.5em; border-collapse:collapse; font-family:"Trebuchet MS", Verdana, Arial; font-size:12px; text-align:left; }
+
+#principal table caption, #principal table th, #principal table td { height:2.5em; padding:0 1em; border:1px solid #e7e7e7; font-weight:bold; text-align:left; color:#333; vertical-align:middle; }
+
+#principal table td.numberAlign 		{ text-align:right; }
+#principal table th.numberAlign 		{ text-align:right; }
+
+#principal table caption				{ margin-bottom:0.2em; background:#e2e2e2 /*url(/fj21-controle-produtos/images/bg_caption.png)*/ 0px 2.4em repeat-x; font-size:1em; color:#222; line-height:2.5em; }
+
+#principal table th 					{ background:#f2f2f2; font-size:0.9em; line-height:1.2em; }
+
+#principal table tr:hover				{ background:#fff8da; }
+
+#principal table tr.alt 				{ background:#f9f9f9; }
+
+#principal table td					{ font-size:0.9em; font-weight:normal; line-height:1.2em; }
+
+#principal table a					{ margin:0 -1em; padding:0 1em; display:block; text-decoration:none; color:#222; }
+
+#principal table a:hover				{ text-decoration:underline; color:#003366; }
+
+#principal table tr .cat				{ text-decoration:underline; text-transform:uppercase; }
+
+#principal table tr .subcat				{ padding-left:2.5em; }
+
+#principal table tr .center				{ text-align:center; }
+
+/*
+----------------------------------------
+Defini��es Especificas - Principal: Form
+----------------------------------------
+*/
+
+/*#principal form		 				{ width:99%; padding-bottom:1.5em; font-size:0.8em; font-family:"Trebuchet MS", Verdana, Arial; color:#333; }*/
+#principal form						{ width:99%; padding-bottom:1.5em; font-size:12px; font-family:"Trebuchet MS", Verdana, Arial; color:#333; }
+
+#principal form fieldset				{ display:block; margin:0 auto; padding:1em; border:1px solid #bbb; font-size:1em; white-space:nowrap; }
+
+#principal form legend				{ margin-left:-0.5em; padding:0.5em; font-size:1em; font-style:normal; font-weight:bold; color:#222; }
+
+#principal form p						{ padding:0.2em 0; font-size:1em; clear:both; }
+
+#principal form label					{ width:12em; display:block; float:left; margin-right:1.8em; font-size:0.9em; text-align:right;  }
+
+#principal form input					{ float:left; margin:0; padding:0.1em 0.2em; border:1px solid #e2e2e2; background:#f2f2f2; font-size:0.9em; color:#222; }
+
+#principal form p span				{ float:left; margin:0 1em 0 0.5em; font-size:0.8em; color:#777; }
+
+#principal form input:focus			{ border:1px solid #ccc; background:#fdf9e9; }
+
+#principal form input:hover			{ background:#fff8da; }
+        
+#principal form select					{ margin:0; padding:0 0.2em; border:1px solid #e2e2e2; background:#f2f2f2; font-size:0.9em; color:#222; }
+
+#principal form select:focus			{ border:1px solid #ccc; background:#fdf9e9; }
+
+#principal form select:hover			{ background:#fdf9e9; }
+
+
+#principal form .inputselect			{ border: none; vertical-align:top; }
+
+#principal form .labelselect			{ width: 50em; display: inline; float:none; padding-left:0.5em; vertical-align:top; color: #000; line-height:1.2em; }
+
+#principal form .bt					{ font-size:1em; padding-top:0.75em; padding-bottom:0.75em; }
+
+#principal form fieldset .bt				{ padding-top:0.25em; padding-left:9.5em; }
+
+#principal form .bt .bt_padrao		{ margin:0; margin-right:0.5em; padding:0em 0.2em; text-align:center; }
+
+#principal form .det_pedido			{ font-size:1em; }
+
+
+/*
+---------------------------------------------------------------
+Defini��es Especificas - Principal: Form (descri��o do produto)
+---------------------------------------------------------------
+*/
+
+#principal form fieldset .produto_descricao table, #principal form fieldset .produto_descricao td, #principal form fieldset .produto_descricao th, #principal form fieldset .produto_descricao input, #principal form fieldset .produto_descricao select, #principal form fieldset .produto_descricao span, #principal form fieldset .produto_descricao .text, #principal form fieldset .produto_descricao iframe, #principal form fieldset .produto_descricao div, #principal form fieldset .produto_descricao img, #principal form fieldset .produto_descricao tbody, #principal form fieldset .produto_descricao tr, #principal form fieldset .produto_descricao img, #principal form fieldset .produto_descricao *	{ margin:0; padding:0; }
+
+#principal form fieldset .produto_descricao td, #principal form fieldset .produto_descricao td pre { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; margin:8px; }
+
+#principal form fieldset .produto_descricao	a 		{ background:none; padding:0; margin:0; font-weight:normal; text-decoration:none; color:#003366; }
+
+#principal form fieldset .produto_descricao	a:hover	{ background:none; text-decoration:none; }
+
+/*
+-----------------------------------------
+Defini��es Espec�ficas - Pagina��o
+-----------------------------------------
+*/
+
+#paginacao							{ margin:0; margin-left:0.25em; padding-bottom:0.5em; }
+
+#paginacao p							{ font-size:0.7em; color:#333; }
+
+#paginacao p a						{ background:none; margin:0; padding:0.15em 0.3em; text-decoration:none; color:#333; }
+
+#paginacao p a:hover					{ font-weight:bold; text-decoration:underline; color:#111; }
+
+#paginacao p .atual					{ font-size:1.1em; font-weight:bold; text-decoration:underline; color:#222; }
+
+#paginacao p .nav:hover				{ font-weight:normal; text-decoration:underline; }
+
+
+
+/*
+-------------------------------
+Defini��es Espec�ficas - Rodape
+-------------------------------
+*/
+
+#corpo .rodape div						{ background:#fff; }
+
+#corpo .rodape .efeito_entrar			{ width:100%; height:30px; background:/*url(/fj21-controle-produtos/images/bg_rodape_conteudo.png)*/ repeat-x 0px 0px; }
+
+#corpo .rodape .efeito_menu				{ width:200px; height:30px; float:left; background:/*url(/fj21-controle-produtos/images/bg_rodape_menu.png)*/ repeat-x 0px 0px; }
+
+#corpo .rodape .efeito_conteudo			{ height:30px; background:/*url(/fj21-controle-produtos/images/bg_rodape_conteudo.png)*/ repeat-x 0px 0px; }
+
+#corpo .rodape p						{ padding-top:3.25em; padding-left:1em; font-size:0.7em; color:#fff; }
+
+
+/* HTML 5.0 
+header, nav, footer, article {display:block; color:red; text-align:right;}
+nav {float:left; width:20%;}
+article {float:right; width:79%;}
+footer {clear:both;}
+
+@font-face {
+  font-family: 'ChunkFiveRegular';
+  src: url('/fj21-controle-produtos/fonts/Chunkfive.eot');
+  src: local('ChunkFive Regular'), local('ChunkFive'), url('/fj21-controle-produtos/fonts/Chunkfive.otf') format('opentype'), url('Chunkfive.svg#ChunkFive') format('svg');
+}
+
+h1, h2 { 
+  line-height: normal; 
+  font-weight: normal; 
+  font-family: 'ChunkFiveRegular', sans-serif
+}*/

@@ -1,0 +1,14 @@
+
+bin
+generated
+target
+*.class
+.gradle
+.classpath
+.project
+.settings
+.classpath.old
+build
+deploy
+lib/*
+
